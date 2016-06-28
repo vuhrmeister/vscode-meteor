@@ -1,7 +1,7 @@
 
 'use strict';
 
-import { CompletionItemProvider, TextDocument, Position, CompletionItem, CompletionItemKind, workspace } from 'vscode';
+import { CompletionItemProvider, TextDocument, Position, CompletionItem } from 'vscode';
 import { IEntries, IEntry, api } from './meteorApi';
 
 export default class MeteorCompletionItemProvider implements CompletionItemProvider {
