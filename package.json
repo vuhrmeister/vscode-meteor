@@ -4,6 +4,11 @@
     "description": "Intellisense completion for Meteor",
     "version": "0.0.1",
     "publisher": "vuhrmeister",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vuhrmeister/vscode-meteor"
+    },
+    "author": "Valentin Uhrmeister",
     "engines": {
         "vscode": "^1.0.0"
     },
