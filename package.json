@@ -2,6 +2,7 @@
     "name": "vscode-meteor",
     "displayName": "Meteor",
     "description": "Intellisense completion for Meteor",
+    "icon": "images/meteor-icon.svg",
     "version": "0.0.1",
     "publisher": "vuhrmeister",
     "repository": {
