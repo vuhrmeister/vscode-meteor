@@ -21,6 +21,10 @@ So feature request and pull requests are welcome!
 
 ## Release Notes
 
+### 0.0.3
+
+- Mark as preview
+
 ### 0.0.2
 
 - Added more Meteor functions for auto completion
