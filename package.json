@@ -17,6 +17,10 @@
     "categories": [
         "Other"
     ],
+    "keywords": [
+        "autocomplete",
+        "intellisense"
+    ],
     "activationEvents": [
         "*"
     ],
