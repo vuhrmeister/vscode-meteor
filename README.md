@@ -6,13 +6,13 @@ This extension brings support for Meteor to Visual Studio Code. The goal is to c
 
 ## Features
 
-### Intellisense auto completion
+### Auto completion
 
-For [Meteor's API](http://docs.meteor.com/api) the extension provides auto completion.
-
-> Right now it supports all direct members of the API. Instance properties or methods are not covered yet. This is a bit more complex.
+This extension provides typings for the whole Meteor API. It includes the typings from [meteor-typings](https://github.com/meteor-typings/meteor).
 
 ![auto complete](/images/autocomplete.png)
+
+> Some declarations are currently missing. Also inline documentation is currently not provided. Will be definitely completed.
 
 ## Contribution
 
@@ -20,6 +20,10 @@ I just started and have to figure out how to implement more features.
 So feature request and pull requests are welcome!
 
 ## Release Notes
+
+### 0.1.0
+
+- Use typings instead of custom logic
 
 ### 0.0.3
 
