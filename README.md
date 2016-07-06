@@ -2,7 +2,7 @@
 
 This extension brings support for Meteor to Visual Studio Code. The goal is to create an extension with complete support specific to Meteor.
 
-> It's currently under development and the set of features is limited. See the list below for more details.
+> It's currently under development and the set of features is limited. See below for more details.
 
 ## Features
 
@@ -10,7 +10,10 @@ This extension brings support for Meteor to Visual Studio Code. The goal is to c
 
 This extension provides typings for the whole Meteor API. It includes the typings from [meteor-typings](https://github.com/meteor-typings/meteor).
 
+With typings you get auto complete and also information about parameters in function calls.
+
 ![auto complete](/images/autocomplete.png)
+![parameter info](/images/signature.png)
 
 > Some declarations are currently missing. Also inline documentation is currently not provided. Will be definitely completed.
 
