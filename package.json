@@ -3,7 +3,7 @@
   "displayName": "Meteor",
   "description": "Intellisense completion for Meteor",
   "icon": "images/meteor-icon.svg",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "preview": true,
   "publisher": "vuhrmeister",
   "repository": {
