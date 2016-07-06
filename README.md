@@ -4,6 +4,30 @@ This extension brings support for Meteor to Visual Studio Code. The goal is to c
 
 > It's currently under development and the set of features is limited. See below for more details.
 
+## Installation
+
+```
+ext install vscode-meteor
+```
+
+For this extension to work you need to add a `jsconfig.json` if you haven't already.
+See the [VS Code documentation](https://code.visualstudio.com/docs/languages/javascript#_javascript-projects-jsconfigjson) for more information.
+
+A very basic `jsconfig.json` could be as follows:
+
+```
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+	},
+	"exclude": [
+		"node_modules",
+		"bower_components"
+	]
+}
+```
+
 ## Features
 
 ### Auto completion
@@ -24,7 +48,7 @@ So feature request and pull requests are welcome!
 
 ## Release Notes
 
-### 0.1.0
+### 0.1.1
 
 - Use typings instead of custom logic
 
